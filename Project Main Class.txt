@@ -30,5 +30,6 @@ public class PerInfo {
     }
     void getpostalcode(){
         System.out.println("\nPostal Address : "+post_code);
+         System.out.println("\nPostal Address : "+post_code);
     }   
 }
