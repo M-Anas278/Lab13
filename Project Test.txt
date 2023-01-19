@@ -1,0 +1,15 @@
+import java.util.*;
+public class DirectCV {
+    public static void main(String args[]){
+        PerInfo info = new PerInfo();
+        Scanner sc = new Scanner(System.in);
+        info.SetInfo("Muhammad", 03212000152, "A55 Secter B", 75640);
+        
+        info.getname();
+        info.getphone();
+        info.getaddress();
+        info.getpostalcode();
+        
+      
+    }
+}

@@ -1,0 +1,34 @@
+import java.util.*;
+public class PerInfo {
+    String Name;
+    int phone;
+    String Address;
+    int post_code;
+    
+    // Using Default constructor
+    PerInfo(){
+        Name = null;
+        phone = 0;
+        Address = null;
+        post_code = 0;
+    }
+    void SetInfo(String name, int phone, String address, int postcode){
+        this.Name = name;
+        this.Address = address;
+        this.phone = phone;
+        this.post_code = postcode;
+        
+    }
+    void getname(){
+        System.out.println("\nName : "+Name);
+    }
+    void getphone(){
+        System.out.println("\nPhone No. : "+phone);
+    }
+    void getaddress(){
+        System.out.println("\nAddress : "+Address);
+    }
+    void getpostalcode(){
+        System.out.println("\nPostal Address : "+post_code);
+    }   
+}
